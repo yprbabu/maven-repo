@@ -35,7 +35,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <start-class>your.package.main</start-class>
+        <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
     </properties>
 
     <build>
