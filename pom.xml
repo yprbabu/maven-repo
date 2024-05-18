@@ -42,6 +42,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                 <configuration>    
+                       <mainClass>org.springframework.boot.loader.JarLauncher</mainClass>
+                 </configuration>
             </plugin>
                 <artifactId>maven-failsafe-plugin</artifactId>
                 <executions>
